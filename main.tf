@@ -2,10 +2,6 @@ resource "azurerm_resource_group" "lab" {
   name     = "rg-tf-lab"
   location = "eastus"
 }
-resource "azurerm_resource_group" "lab" {
-  name     = "rg-tf-lab"
-  location = "eastus"
-}
 
 resource "azurerm_virtual_network" "lab" {
   name                = "vnet-tf-lab"
